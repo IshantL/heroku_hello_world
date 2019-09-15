@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/sachin26thakur/heroku_hello_world/issues"
   },
-  "homepage": "https://github.com/sachin26thakur/heroku_hello_world#readme"
+  "homepage": "https://github.com/sachin26thakur/heroku_hello_world#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
