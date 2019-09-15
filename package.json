@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/sachin26thakur/heroku_hello_world#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "npm-run": "^5.0.1"
   }
 }
