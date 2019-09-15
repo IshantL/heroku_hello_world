@@ -1,0 +1,24 @@
+{
+  "name": "heroku_hello_world",
+  "version": "1.0.0",
+  "description": "hello world",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sachin26thakur/heroku_hello_world.git"
+  },
+  "keywords": [
+    "hello",
+    "world"
+  ],
+  "author": "sachin thakur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sachin26thakur/heroku_hello_world/issues"
+  },
+  "homepage": "https://github.com/sachin26thakur/heroku_hello_world#readme"
+}
