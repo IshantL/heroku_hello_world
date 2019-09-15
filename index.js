@@ -6,6 +6,12 @@ app.get('/', function(request, response){
     response.send("Hello World !!!");
 })
 
+app.get('/message', function(request, response){
+    var message = request.params.message;
+    response.send(message);
+})
+
+
 app.listen(PORT, function(){
     console.log('Server is Started at', PORT)
 })
