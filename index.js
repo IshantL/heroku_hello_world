@@ -7,8 +7,9 @@ app.get('/', function(request, response){
 })
 
 app.get('/message', function(request, response){
+    console.log(request.params.message)
     var message = request.params.message;
-    response.send(message);
+    response.send(request);
 })
 
 
