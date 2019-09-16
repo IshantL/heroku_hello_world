@@ -1,0 +1,42 @@
+# Dependency directories
+node_modules/
+**/node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# lerna
+lerna-debug.log
+
+# Package build output
+**/package-lock.json
+**/dist
+
+**/lib
+**/lib-esm
+**/_bundles
+
+# Visual Studio folder
+.vs/*
+.vscode
+
+# WebStorm / IntelliJ folder
+.idea/
+
+# Optional npm cache directory
+.npm
+.npmrc
+
+# Output of 'npm pack'
+*.tgz
+
+# Coverage directory used by tools
+coverage
+
+# Dev settings
+**/**/devSettings/index.ts
+**/**/devSettings/webpack.dev.js
