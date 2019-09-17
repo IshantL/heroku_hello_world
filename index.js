@@ -37,6 +37,17 @@ app.get('/message', function (request, response) {
     response.send(message);
 })
 
+console.log('chekcing', process)
+if (process.env.NODE_ENV === 'production') {
+    // Serve any static files
+    app.use(express.static(path.join(__dirname, 'client/build')));
+    console.log('chekcing', process)      
+    // Handle React routing, return all requests to React app
+    app.get('*', function(req, res) {
+      res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
+    });
+  }
+
 
 app.listen(PORT, function () {
     console.log('Server is Started at', PORT)

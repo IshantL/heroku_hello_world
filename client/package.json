@@ -13,7 +13,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "proxy": "https://rocky-badlands-99248.herokuapp.com",
+  "proxy": "https://rocky-badlands-99248.herokuapp.com:443",
   "browserslist": [
     ">0.2%",
     "not dead",
